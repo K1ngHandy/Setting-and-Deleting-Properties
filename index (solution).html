@@ -6,7 +6,40 @@
     /*
     DIRECTIONS: Below are solutions to all the practice problems for this learning objective.  You can try each solution by copying it into your "index.html" file and clicking "Run". 
     */
+/* 
+    PROBLEM 1: setting properties with dot notation
+    */
+    let animal = {
+      name: "Zebra",
+      habitat: "Savannah"
+    };
+    animal.color = "Black with White Stripes";
+     
+    /* 
+    PROBLEM 2: setting properties with square bracket notation
+    */
+    animal["Favorite Food"] = "Grass";
+    
+     /* 
+    PROBLEM 3: overwriting an existing property
+    */
+    animal.habitat = "Zoo";
 
+    /* 
+    PROBLEM 4: deleting a property with the delete operator
+    */
+    delete animal.color;
+
+    /* 
+    PROBLEM 5 (DEBUGGING): find the bug
+    */
+   let anotherAnimal = {
+    name: "tiger",
+    habitat: "Jungle",
+    "Favorite Food": "Frosted Flakes",
+   };
+
+   anotherAnimal.FavoriteFood = "Wild Boar";
   </script> 
  
 </body>
