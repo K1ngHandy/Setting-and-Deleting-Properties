@@ -32,22 +32,14 @@
 
     /* 
     PROBLEM 5 (DEBUGGING): You are trying to change the favorite food of the Tiger object, you are receiving an "Uncaught SyntaxError: Unexpected identifier". Fix the error so that the console prints the correct diet for the Tiger.
-    
-    let tiger = {
+    */
+  let tiger = {
     name: "Antonio",
     habitat: "Jungle",
     "Favorite Food": "Frosted Flakes",
-   };
+  };
 
-   anotherAnimal.Favorite Food = "Wild Boar";
-    */
-   let anotherAnimal = {
-    name: "tiger",
-    habitat: "Jungle",
-    "Favorite Food": "Frosted Flakes",
-   };
-
-   anotherAnimal["Favorite Food"] = "Wild Boar";
+  tiger["Favorite Food"] = "Wild Boar"; // Move the property name into square brackets and use quotes
   </script> 
  
 </body>
